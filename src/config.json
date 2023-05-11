@@ -14,18 +14,18 @@
     "linkedin":"https://www.linkedin.com/in/singhalabhi0/",
     "hobbies":["a","b","c"],
     "skillset" : ["diPython", "cgCplusplus", "siNextDotJs"],
-    "projects":{
-        "1":{
+    "projects":[
+        {
             "title":"",
             "image":"url",
             "description":"",
             "github_link":""
         },
-        "2":{
+        {
             "title":"", 
             "image":"url",
             "description":"",
             "github_link":""
         }
-    }
+    ]
 }
