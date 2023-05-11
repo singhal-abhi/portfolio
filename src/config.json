@@ -1,0 +1,31 @@
+
+{
+    "name":"Abhinav Singhal",
+    "location":"Uttar Pradesh, India",
+    "intro_line":"I am a Backend Engineer Intern and also pursuing B.Tech in CEIT from ABES Engineering College.",
+    "logo": "yes",
+    "about":"Backend Intern at Deeptek Medical Imaging and a final year student",
+    "tags":["Backend Developer","Support Engineer","Student"],
+    "conding_languages":["Python, C/C++ and SQL"],
+    "interests":["building Web-based apps","outdoor games like Cricket, Badminton"],
+    "framework_lang":"python",
+    "frameworks":["Django","Flask"],
+    "github":"https://github.com/singhal-abhi/",
+    "linkedin":"https://www.linkedin.com/in/singhalabhi0/",
+    "hobbies":["a","b","c"],
+    "skillset" : ["diPython", "cgCplusplus", "siNextDotJs"],
+    "projects":{
+        "1":{
+            "title":"",
+            "image":"url",
+            "description":"",
+            "github_link":""
+        },
+        "2":{
+            "title":"", 
+            "image":"url",
+            "description":"",
+            "github_link":""
+        }
+    }
+}
