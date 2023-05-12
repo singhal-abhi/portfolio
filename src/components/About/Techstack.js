@@ -1,6 +1,10 @@
+
 import React from "react";
+import conf from "../../config.json";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import {
+  CgCPlusPlus
+} from "react-icons/cg"
 import {
   DiJavascript1,
   DiReact,
@@ -9,47 +13,53 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
+
 
 function Techstack() {
+  const getIconComponent = (iconName) => {
+    console.log(iconName);
+    switch (iconName) {
+      case "CgCPlusPlus":
+        return <CgCPlusPlus />;
+      case "DiJavascript1":
+        return <DiJavascript1 />;
+      case "DiReact":
+        return <DiReact />;
+      case "DiNodejs":
+        return <DiNodejs />;
+      case "DiMongodb":
+        return <DiMongodb />;
+      case "DiPython":
+        return <DiPython />;
+      case "DiGit":
+        return <DiGit />;
+      case "SiPytorch":
+        return <SiPytorch />;
+      case "SiFirebase":
+        return <SiFirebase />;
+      case "SiNextdotjs":
+        return <SiNextdotjs />;
+      default:
+        return <AiOutlineQuestionCircle />;
+    }
+  };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      {
+      conf.skillset.map((icon) => 
+        <Col xs={4} md={2} className="tech-icons">
+          {getIconComponent(icon)}
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
-      </Col>
+      
+            )
+            }
     </Row>
-  );
+  )
 }
 
 export default Techstack;
