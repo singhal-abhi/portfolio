@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import hometwoAvatar from "../../Assets/home2_avatar.svg";
 import Tilt from "react-parallax-tilt";
 import conf from "../../config.json" 
 
@@ -32,7 +32,7 @@ function Home2() {
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple">{conf.interests[0]},
+                <b className="purple">
                   {conf.interests.slice(0,conf.interests.length-1).map((tag) => (
                     <span>{tag}, </span>
                   ))}
@@ -54,7 +54,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={hometwoAvatar} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

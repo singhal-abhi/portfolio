@@ -1,19 +1,19 @@
 
 {
-    "name":"Abhinav Singhal",
-    "location":"Uttar Pradesh, India",
-    "intro_line":"I am a Backend Engineer Intern and also pursuing B.Tech in CEIT from ABES Engineering College.",
+    "name":"Diksha Prasad",
+    "location":"Jamshedpur, India",
+    "intro_line":"I am a Full Stack Developer Intern at DEEPTEK MED.IMG.PVT.LTD. Completed my BTECH in May'23 with major in BIOTECHNOLOGY and minor in Computer Science",
     "logo": "yes",
-    "about":"Backend Intern at Deeptek Medical Imaging and a final year student",
-    "tags":["Backend Developer","Support Engineer","Student"],
-    "conding_languages":["Python, C/C++ and SQL"],
-    "interests":["building Web-based apps","outdoor games like Cricket, Badminton"],
-    "framework_lang":"python",
-    "frameworks":["Django","Flask"],
-    "github":"https://github.com/singhal-abhi/",
-    "linkedin":"https://www.linkedin.com/in/singhalabhi0/",
-    "hobbies":["a","b","c"],
-    "skillset" : ["diPython", "cgCplusplus", "siNextDotJs"],
+    "about":"Currently working as the Frontend Intern at Deeptek Medical Imaging and now shifting to the backend as well. Exploring the frameworks like Flask and Django",
+    "tags":["FullStack Developer","REACT JS./ FLASK & DJANGO","ex- UI/UX designer"],
+    "conding_languages":["Python, C/C++"],
+    "interests":["building Web-based apps","eagerly wants to work on backend, and an artist as well"],
+    "framework_lang":"javascript,python",
+    "frameworks":["React JS.","Django","Flask"],
+    "github":"https://github.com/DIKBIT",
+    "linkedin":"https://www.linkedin.com/in/diksha-prasad-a30990199/",
+    "hobbies":["Watercolor Painter","Reading Books","Badminton"],
+    "skillset" : ["React JS", "Flask", "Django"],
     "projects":[
         {
             "title":"",
@@ -28,4 +28,5 @@
             "github_link":""
         }
     ]
+    
 }

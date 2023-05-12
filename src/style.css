@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #20B2AA;
 }
 
 .purple {
@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #20B2AA;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #20B2AA;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #20B2AA;
   border-radius: 12px;
 }
 
@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color:#91bfbd !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #20B2AA !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #20B2AA;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -204,6 +204,9 @@ button:focus {
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
+
+
+
 
 /* --------- */
 /* Home section */
@@ -257,7 +260,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/blue_home_bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -281,17 +284,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #20B2AA;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #20B2AA !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #20B2AA !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +374,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #20B2AA;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +382,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #20B2AA;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #20B2AA;
+  box-shadow: 0 0 5px #20B2AA;
+  text-shadow: 0 0 2px #20B2AA;
 }
 
 .social-icons {
@@ -395,7 +398,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #20B2AA !important;
 }
 
 /* --------- */
@@ -439,7 +442,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #20B2AA !important;
 }
 /* --------- */
 /* Projects */
@@ -555,7 +558,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #91bfbd !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -574,7 +577,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #91bfbd !important;
 }
 .tech-icon-images {
   padding: 20px !important;
