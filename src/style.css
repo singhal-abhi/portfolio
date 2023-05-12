@@ -1,3 +1,4 @@
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -57,18 +58,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #20B2AA;
+  background: var(--important_text_color);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #20B2AA;
+  background: var(--important_text_color);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #20B2AA;
+  background: var(--important_text_color);
   border-radius: 12px;
 }
 
@@ -97,7 +98,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #20B2AA !important;
+  background-color: var(--important_text_color) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #20B2AA;
+  background: var(--important_text_color);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -284,17 +285,17 @@ button:focus {
 }
 
 .main-name {
-  color: #20B2AA;
+  color: var(--important_text_color);
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #20B2AA !important;
+  color: var(--important_text_color) !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #20B2AA !important;
+  color: var(--important_text_color) !important;
 }
 
 @media (max-width: 767px) {
@@ -374,7 +375,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #20B2AA;
+  background: var(--important_text_color);
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -382,13 +383,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #20B2AA;
+  box-shadow: 0 0 15px var(--important_text_color);
 }
 
 .home-social-icons:hover {
-  color: #20B2AA;
-  box-shadow: 0 0 5px #20B2AA;
-  text-shadow: 0 0 2px #20B2AA;
+  color: var(--important_text_color);
+  box-shadow: 0 0 5px var(--important_text_color);
+  text-shadow: 0 0 2px var(--important_text_color);
 }
 
 .social-icons {
@@ -398,7 +399,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #20B2AA !important;
+  color: var(--important_text_color) !important;
 }
 
 /* --------- */
@@ -442,7 +443,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #20B2AA !important;
+  color: var(--important_text_color) !important;
 }
 /* --------- */
 /* Projects */
