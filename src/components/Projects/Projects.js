@@ -32,7 +32,7 @@ function Projects() {
                   title={project.title}
                   description={project.desc}
                   ghLink={project.github_link}
-                  demoLink="https://chatify-49.web.app/"
+                  demoLink={project.demo_link}
                 />
               </Col>
             )
