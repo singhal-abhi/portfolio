@@ -14,7 +14,8 @@
     "framework_lang":"python",
     "frameworks":["Django","Flask"],
     "hobbies":["a","b","c"],
-    "skillset" : ["DiPython", "CgCPlusPlus", "SiNextdotjs","DiNodejs"],
+    "skillset" : ["DiPython", "SiDjango", "SiFlask","SiMysql","CgCPlusPlus","DiNodejs"],
+    "tools":["SiPostman","SiVisualstudiocode","DiGit"],
     "projects":[
         {
             "title":"",
