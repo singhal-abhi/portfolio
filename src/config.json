@@ -1,35 +1,34 @@
-
 {
-    "name":"Abhinav Singhal",
-    "location":"Uttar Pradesh, India",
-    "github":"https://github.com/singhal-abhi/",
-    "github_username":"singhal-abhi",
-    "linkedin":"https://www.linkedin.com/in/singhalabhi0/",
-    "intro_line":"I am a Backend Engineer Intern and also pursuing B.Tech in CEIT from ABES Engineering College.",
+    "name": "Abhinav Singhal",
+    "location": "Uttar Pradesh, India",
+    "github": "https://github.com/singhal-abhi/",
+    "github_username": "singhal-abhi",
+    "linkedin": "https://www.linkedin.com/in/singhalabhi0/",
+    "intro_line": "I'm a Software Engineer working full time as a Backend Developer at Deeptek.",
     "logo": "yes",
-    "about":"Backend Intern at Deeptek Medical Imaging and a final year student",
-    "tags":["Backend Developer","Support Engineer","Student"],
-    "conding_languages":["Python, C/C++ and SQL"],
-    "interests":["building Web-based apps","outdoor games like Cricket, Badminton"],
-    "framework_lang":"python",
-    "frameworks":["Django","Flask"],
-    "hobbies":["a","b","c"],
-    "skillset" : ["DiPython", "SiDjango", "SiFlask","SiMysql","CgCPlusPlus","DiNodejs"],
-    "tools":["SiPostman","SiVisualstudiocode","DiGit"],
-    "projects":[
+    "about": "Backend Engineer at Deeptek Medical Imaging passionate about building scalable web applications.",
+    "tags": ["Backend Engineer", "Learner", "Python Developer"],
+    "coding_languages": ["Python", "C/C++", "SQL"],
+    "interests": ["building Web-based apps", "outdoor games like Cricket, Badminton"],
+    "framework_lang": "Python",
+    "frameworks": ["Django", "Flask", "FastAPI"],
+    "hobbies": ["Reading technical blogs", "Playing cricket", "Exploring new tools"],
+    "skillset": ["Python", "Django", "Flask", "MySQL", "C++", "Node.js"],
+    "tools": ["Postman", "Visual Studio Code", "Git"],
+    "projects": [
         {
-            "title":"",
-            "image":"download.jfif",
-            "description":"",
-            "github_link":"",
-            "demo_link":"https://mygurukul.pythonanywhere.com"
+            "title": "MyGurukul Web App",
+            "image": "mygurukul_image.jpg",
+            "description": "An educational platform for seamless learning management, built using Django.",
+            "github_link": "https://github.com/singhal-abhi/mygurukul",
+            "demo_link": "https://mygurukul.pythonanywhere.com"
         },
         {
-            "title":"", 
-            "image":"download2.jfif",
-            "description":"",
-            "github_link":"",
-            "demo_link":""
+            "title": "Automated Mailer Service",
+            "image": "mailer_service.jpg",
+            "description": "A Flask-based web application to schedule and send automated job application emails with attachments.",
+            "github_link": "https://github.com/singhal-abhi/automated-mailer-service",
+            "demo_link": ""
         }
     ]
 }

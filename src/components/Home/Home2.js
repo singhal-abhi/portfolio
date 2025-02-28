@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> {conf.conding_languages} </b>.
+                <b className="purple"> {conf.coding_languages} </b>.
               </i>
               <br />
               <br />

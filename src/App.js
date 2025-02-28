@@ -17,7 +17,9 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function App() {
+  const basename = window.location.pathname.startsWith("/portfolio") ? "/portfolio" : "/";  // Determine the base path
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
@@ -29,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={basename}>  {/* Set the basename for routing */}
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
