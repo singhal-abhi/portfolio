@@ -4,31 +4,118 @@
     "github": "https://github.com/singhal-abhi/",
     "github_username": "singhal-abhi",
     "linkedin": "https://www.linkedin.com/in/singhalabhi0/",
-    "intro_line": "I'm a Software Engineer working full time as a Backend Developer at Deeptek.",
+    "intro_line": "I'm a Software Engineer working full-time as a Backend Developer at Deeptek, focusing on scalable and secure backend solutions.",
     "logo": "yes",
-    "about": "Backend Engineer at Deeptek Medical Imaging passionate about building scalable web applications.",
-    "tags": ["Backend Engineer", "Learner", "Python Developer"],
-    "coding_languages": ["Python", "C/C++", "SQL"],
-    "interests": ["building Web-based apps", "outdoor games like Cricket, Badminton"],
+    "about": "Backend Engineer at Deeptek Medical Imaging, experienced in designing scalable RESTful APIs, optimizing database performance, and enhancing backend architecture for healthcare solutions.",
+    "tags": [
+        "Backend Engineer",
+        "Python Developer",
+        "Django Developer"
+    ],
+    "coding_languages": [
+        "Python",
+        "C/C++",
+        "SQL"
+    ],
+    "interests": [
+        "Building Web-based apps",
+        "Optimizing backend performance",
+        "Outdoor games like Cricket, Badminton"
+    ],
     "framework_lang": "Python",
-    "frameworks": ["Django", "Flask", "FastAPI"],
-    "hobbies": ["Reading technical blogs", "Playing cricket", "Exploring new tools"],
-    "skillset": ["Python", "Django", "Flask", "MySQL", "C++", "Node.js"],
-    "tools": ["Postman", "Visual Studio Code", "Git"],
+    "frameworks": [
+        "Django",
+        "Flask",
+        "FastAPI"
+    ],
+    "hobbies": [
+        "Reading technical blogs",
+        "Playing cricket",
+        "Exploring new tools"
+    ],
+    "skillset": [
+        "Python",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "SQL",
+        "C++",
+        "Docker",
+        "Celery",
+        "Redis"
+    ],
+    "tools": [
+        "Postman",
+        "VScode",
+        "Git",
+        "Apidog",
+        "PyArmor"
+    ],
+    "experience": [
+        {
+            "company": "Deeptek Medical Imaging Ltd.",
+            "role": "Software Development Engineer",
+            "duration": "02/2024 - Present",
+            "responsibilities": [
+                "Revamped backend architecture, scaling platform across India.",
+                "Implemented Celery for task scheduling, improving efficiency by 40%.",
+                "Designed RESTful APIs ensuring real-time health data insights.",
+                "Led architectural redesign of a Medical Imaging solution, isolating the DICOM inferencing module.",
+                "Implemented encryption for sensitive medical records.",
+                "Established an API testing framework using Apidog, reducing post-deployment bugs by 25%."
+            ]
+        },
+        {
+            "company": "Amazon Development Centre",
+            "role": "Support Engineer II",
+            "duration": "07/2023 - 01/2024",
+            "responsibilities": [
+                "Automated deployment processes, reducing manual effort by 30%.",
+                "Ensured scaling of critical services for Amazon's Just Walk Out stores.",
+                "Debugged and patched software glitches for smooth operations."
+            ]
+        }
+    ],
+    "education": {
+        "degree": "B.Tech in Computer Science",
+        "institution": "ABES Engineering College",
+        "year": "2019 - 2023",
+        "gpa": "8.2"
+    },
+    "activities": [
+        {
+            "name": "Enigma Programming Club",
+            "description": "Organized bootcamps for freshers to introduce multiple coding languages and platforms. Developed test problems for club recruitment."
+        },
+        {
+            "name": "HUHC (Help Us to Help the Child)",
+            "description": "Volunteered at an NGO, providing education to underprivileged children in Ghaziabad."
+        }
+    ],
     "projects": [
         {
+            "width": "col-md-4",
             "title": "MyGurukul Web App",
-            "image": "mygurukul_image.jpg",
+            "image": "/my-gurukul.png",
             "description": "An educational platform for seamless learning management, built using Django.",
-            "github_link": "https://github.com/singhal-abhi/mygurukul",
+            "github_link": "https://github.com/singhal-abhi/ERP-system",
             "demo_link": "https://mygurukul.pythonanywhere.com"
         },
         {
+            "width": "col-md-4",
+            "title": "CSV Chat Agent",
+            "image": "/csv-agent.png",
+            "description": "An educational platform for seamless learning management, built using Django.",
+            "github_link": "https://github.com/singhal-abhi/CSV-Chat-Agent",
+            "demo_link": "https://singhal-abhi-csv-chat-agent-app-mol6ju.streamlit.app/"
+        },
+        {
+            "width": "col-md-4",
             "title": "Automated Mailer Service",
-            "image": "mailer_service.jpg",
+            "image": "/applier.png",
             "description": "A Flask-based web application to schedule and send automated job application emails with attachments.",
-            "github_link": "https://github.com/singhal-abhi/automated-mailer-service",
-            "demo_link": ""
+            "github_link": "https://github.com/singhal-abhi/Mail-Sender",
+            "demo_link": "https://applier.pythonanywhere.com"
         }
     ]
 }

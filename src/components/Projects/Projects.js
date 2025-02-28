@@ -25,7 +25,7 @@ function Projects() {
           {
 
             conf.projects.map((project) =>
-              <Col md={4} className="project-card">
+              <Col md={project.width} className="project-card">
                 <ProjectCard
                   imgPath={project.image}
                   isBlog={false}
