@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5c2c986b.css",
-    "main.js": "/portfolio/static/js/main.f3201427.js",
+    "main.js": "/portfolio/static/js/main.e4388504.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -11,19 +11,20 @@
     "static/media/blog.png": "/portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/Abhinav-Singhal-Resume.pdf": "/portfolio/static/media/Abhinav-Singhal-Resume.d40493f41d17fe252629.pdf",
+    "static/media/Abhinav-Singhal-Resume.pdf": "/portfolio/static/media/Abhinav-Singhal-Resume.b4f1fe61151ba8e8db25.pdf",
     "static/media/chatify.png": "/portfolio/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/fastapi.svg": "/portfolio/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "main.5c2c986b.css.map": "/portfolio/static/css/main.5c2c986b.css.map",
-    "main.f3201427.js.map": "/portfolio/static/js/main.f3201427.js.map",
+    "main.e4388504.js.map": "/portfolio/static/js/main.e4388504.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c2c986b.css",
-    "static/js/main.f3201427.js"
+    "static/js/main.e4388504.js"
   ]
 }
