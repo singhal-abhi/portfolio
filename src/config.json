@@ -3,7 +3,7 @@
     "location": "Uttar Pradesh, India",
     "github": "https://github.com/singhal-abhi/",
     "github_username": "singhal-abhi",
-    "linkedin": "https://www.linkedin.com/in/singhalabhi0/",
+    "linkedin": "https://www.linkedin.com/in/singhal-abhi/",
     "intro_line": "I'm a Software Engineer working full-time as a Backend Developer at Deeptek, focusing on scalable and secure backend solutions.",
     "logo": "yes",
     "about": "Backend Engineer at Deeptek Medical Imaging, experienced in designing scalable RESTful APIs, optimizing database performance, and enhancing backend architecture for healthcare solutions.",
@@ -94,7 +94,7 @@
     ],
     "projects": [
         {
-            "width": "col-md-4",
+            "width": "12",
             "title": "MyGurukul Web App",
             "image": "/my-gurukul.png",
             "description": "An educational platform for seamless learning management, built using Django.",
@@ -102,7 +102,7 @@
             "demo_link": "https://mygurukul.pythonanywhere.com"
         },
         {
-            "width": "col-md-4",
+            "width": "7",
             "title": "CSV Chat Agent",
             "image": "/csv-agent.png",
             "description": "An educational platform for seamless learning management, built using Django.",
@@ -110,7 +110,7 @@
             "demo_link": "https://singhal-abhi-csv-chat-agent-app-mol6ju.streamlit.app/"
         },
         {
-            "width": "col-md-4",
+            "width": "5",
             "title": "Automated Mailer Service",
             "image": "/applier.png",
             "description": "A Flask-based web application to schedule and send automated job application emails with attachments.",

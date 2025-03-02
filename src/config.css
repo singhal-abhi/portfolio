@@ -1,0 +1,46 @@
+
+:root {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+
+  --imp-text-color: #c770f0;
+  --preloader-bg-color: #0c0513;
+  --scrollbar-track-color: #2d1950;
+  --scrollbar-thumb-color: rgba(178, 121, 216, 0.959);
+  --scrollbar-thumb-hover-color: rgba(222, 130, 235, 0.911);
+  --sticky-bg-color: #1b1a2ea9;
+  --sticky-box-shadow: rgba(9, 5, 29, 0.171);
+  --navbar-toggler-color: #be50f4;
+  --navbar-item-hover-color: #c95bf5;
+  --home-social-icons-bg: rgba(255, 255, 255, 0.972);
+  --home-social-icons-before-bg: #68187a;
+  --home-social-icons-hover-before-box-shadow: #801f95;
+  --home-social-icons-hover-color: #87209e;
+  --home-social-icons-hover-box-shadow: #87209e;
+  --home-social-icons-hover-text-shadow: #87209e;
+  --main-name-color: #cd5ff8;
+  --typewriter-wrapper-color: #be6adf;
+  --typewriter-cursor-color: #b562d6;
+  --tech-icons-border-color: rgba(200, 137, 230, 0.637);
+  --tech-icons-box-shadow: rgba(89, 4, 168, 0.137);
+  --tech-icons-hover-border-color: rgba(197, 115, 230, 0.883);
+  --resume-item-border-color: #8a49a8;
+  --resume-item-before-border-color: #8a49a8;
+  --like-btn-bg-color: #934cce5e;
+  --like-btn-border-color: #934cce5e;
+  --like-btn-hover-bg-color: #a24dd386;
+  --like-btn-hover-border-color: #a24dd386;
+  --fork-btn-inner-bg-color: #934cce5e;
+  --fork-btn-inner-hover-bg-color: #a24dd386;
+  --fork-btn-inner-hover-border-color: #a24dd386;
+  --blockquote-footer-color: #a588c0;
+}
