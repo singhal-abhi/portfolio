@@ -4,9 +4,9 @@
     "github": "https://github.com/singhal-abhi/",
     "github_username": "singhal-abhi",
     "linkedin": "https://www.linkedin.com/in/singhal-abhi/",
-    "intro_line": "I'm a Software Engineer working full-time as a Backend Developer at Deeptek, focusing on scalable and secure backend solutions.",
+    "intro_line": "Software Development Engineer specializing in backend development, system architecture, and API optimization.",
     "logo": "yes",
-    "about": "Backend Engineer at Deeptek Medical Imaging, experienced in designing scalable RESTful APIs, optimizing database performance, and enhancing backend architecture for healthcare solutions.",
+    "about": "Backend Engineer at Deeptek Medical Imaging, skilled in designing scalable RESTful APIs, optimizing database performance, and enhancing backend infrastructure for high-availability applications.",
     "tags": [
         "Backend Engineer",
         "Python Developer",
@@ -18,9 +18,10 @@
         "SQL"
     ],
     "interests": [
-        "Building Web-based apps",
+        "Developing scalable web applications",
         "Optimizing backend performance",
-        "Outdoor games like Cricket, Badminton"
+        "Automation and process efficiency",
+        "Outdoor activities like Cricket and Badminton"
     ],
     "framework_lang": "Python",
     "frameworks": [
@@ -30,8 +31,9 @@
     ],
     "hobbies": [
         "Reading technical blogs",
-        "Playing cricket",
-        "Exploring new tools"
+        "Exploring new technologies",
+        "Playing Cricket",
+        "Contributing to developer communities"
     ],
     "skillset": [
         "Python",
@@ -39,65 +41,70 @@
         "Flask",
         "FastAPI",
         "SQL",
+        "MongoDB",
         "C++",
         "Docker",
         "Celery",
-        "Redis"
+        "Redis",
+        "Selenium"
     ],
     "tools": [
         "Postman",
-        "VScode",
+        "VS Code",
         "Git",
+        "GitHub",
         "Apidog",
-        "PyArmor"
+        "PyArmor",
+        "Selenium"
     ],
     "experience": [
         {
             "company": "Deeptek Medical Imaging Ltd.",
             "role": "Software Development Engineer",
-            "duration": "02/2024 - Present",
+            "duration": "February 2024 – Present",
             "responsibilities": [
-                "Revamped backend architecture, scaling platform across India.",
-                "Implemented Celery for task scheduling, improving efficiency by 40%.",
-                "Designed RESTful APIs ensuring real-time health data insights.",
-                "Led architectural redesign of a Medical Imaging solution, isolating the DICOM inferencing module.",
-                "Implemented encryption for sensitive medical records.",
-                "Established an API testing framework using Apidog, reducing post-deployment bugs by 25%."
+                "Redesigned and optimized backend architecture to scale nationwide, improving processing efficiency by 40%.",
+                "Developed and maintained RESTful APIs, ensuring high availability and data integrity for real-time healthcare insights.",
+                "Implemented Celery for task scheduling, improving system performance and asynchronous processing.",
+                "Led the modularization of the DICOM inferencing module, enhancing system security, performance, and maintainability.",
+                "Designed and integrated a subscription management system, incorporating PyArmor for source code obfuscation and piracy prevention.",
+                "Implemented database encryption mechanisms to secure sensitive patient data against unauthorized access.",
+                "Collaborated with the QA team to establish an API testing framework using Apidog, reducing post-deployment issues by 25%."
             ]
         },
         {
             "company": "Amazon Development Centre",
             "role": "Support Engineer II",
-            "duration": "07/2023 - 01/2024",
+            "duration": "July 2023 – January 2024",
             "responsibilities": [
-                "Automated deployment processes, reducing manual effort by 30%.",
-                "Ensured scaling of critical services for Amazon's Just Walk Out stores.",
-                "Debugged and patched software glitches for smooth operations."
+                "Automated deployment pipelines, reducing manual workload by 30% and increasing operational efficiency.",
+                "Ensured seamless scaling and performance optimization of Amazon’s Just Walk Out technology for automated retail stores.",
+                "Troubleshot deployment and software issues, analyzing root causes and implementing solutions to maintain continuous uptime."
             ]
         }
     ],
     "education": {
-        "degree": "B.Tech in Computer Science",
+        "degree": "Bachelor of Technology (B.Tech) in Computer Science",
         "institution": "ABES Engineering College",
-        "year": "2019 - 2023",
+        "year": "2019 – 2023",
         "gpa": "8.2"
     },
     "activities": [
         {
             "name": "Enigma Programming Club",
-            "description": "Organized bootcamps for freshers to introduce multiple coding languages and platforms. Developed test problems for club recruitment."
+            "description": "Led bootcamps and workshops for freshers, introducing them to programming languages, problem-solving techniques, and coding platforms. Designed and conducted technical challenges for recruitment processes."
         },
         {
             "name": "HUHC (Help Us to Help the Child)",
-            "description": "Volunteered at an NGO, providing education to underprivileged children in Ghaziabad."
+            "description": "Volunteered at an NGO dedicated to providing education to underprivileged children in Ghaziabad, actively supporting academic initiatives and mentoring students."
         }
     ],
     "projects": [
         {
             "width": "12",
-            "title": "MyGurukul Web App",
+            "title": "MyGurukul - College Management System",
             "image": "/my-gurukul.png",
-            "description": "An educational platform for seamless learning management, built using Django.",
+            "description": "A robust educational platform built using Django, designed to streamline administration for students, faculty, and course management.",
             "github_link": "https://github.com/singhal-abhi/ERP-system",
             "demo_link": "https://mygurukul.pythonanywhere.com"
         },
@@ -105,7 +112,7 @@
             "width": "7",
             "title": "CSV Chat Agent",
             "image": "/csv-agent.png",
-            "description": "An educational platform for seamless learning management, built using Django.",
+            "description": "A chatbot-powered data analysis tool that enables users to interact with CSV files using natural language queries, built with Streamlit and Llama models.",
             "github_link": "https://github.com/singhal-abhi/CSV-Chat-Agent",
             "demo_link": "https://singhal-abhi-csv-chat-agent-app-mol6ju.streamlit.app/"
         },
@@ -113,9 +120,15 @@
             "width": "5",
             "title": "Automated Mailer Service",
             "image": "/applier.png",
-            "description": "A Flask-based web application to schedule and send automated job application emails with attachments.",
+            "description": "A Flask-based web application that automates and schedules personalized job application emails with attachments.",
             "github_link": "https://github.com/singhal-abhi/Mail-Sender",
             "demo_link": "https://applier.pythonanywhere.com"
         }
-    ]
+    ],
+    "home_title": "LET ME INTRODUCE MYSELF",
+    "home_body": "I am passionate about software development and continuously learning new technologies to solve complex problems efficiently.",
+    "home_social_title": "Feel free to connect with me",
+    "fluent_line": "I am proficient in programming languages such as",
+    "field_interest_line": "My key areas of interest include",
+    "framework_sentence": "Whenever possible, I leverage my expertise in <b class='purple'>{framework_lang} frameworks</b>, particularly <i><b class='purple'>{frameworks}</b></i>, to develop scalable and high-performance applications."
 }

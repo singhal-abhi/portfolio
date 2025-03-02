@@ -1,9 +1,17 @@
-@import url('./config.css');
-
 html {
-  --section-background-color: var(--section-background-color);
-  --image-gradient: var(--image-gradient);
-  --imp-text-color: var(--imp-text-color);
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+
+  --imp-text-color: #c770f0;
 }
 
 .purple {
@@ -24,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: var(--preloader-bg-color);
+  background-color: #0c0513;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -49,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--scrollbar-track-color);
+  background: #2d1950;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb-color);
+  background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-hover-color);
+  background: rgba(222, 130, 235, 0.911);
   border-radius: 12px;
 }
 
@@ -68,9 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: var(--sticky-bg-color) !important;
+  background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px var(--sticky-box-shadow) !important;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -89,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: var(--navbar-toggler-color) !important;
+  background-color: #be50f4 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -186,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: var(--navbar-item-hover-color);
+  background: #c95bf5;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -273,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: var(--main-name-color);
+  color: #cd5ff8;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: var(--typewriter-wrapper-color) !important;
+  color: #be6adf !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: var(--typewriter-cursor-color) !important;
+  color: #b562d6 !important;
 }
 
 @media (max-width: 767px) {
@@ -350,7 +358,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: var(--home-social-icons-bg) !important;
+  background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -363,7 +371,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: var(--home-social-icons-before-bg);
+  background: #68187a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -371,13 +379,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px var(--home-social-icons-hover-before-box-shadow);
+  box-shadow: 0 0 15px #801f95;
 }
 
 .home-social-icons:hover {
-  color: var(--home-social-icons-hover-color);
-  box-shadow: 0 0 5px var(--home-social-icons-hover-box-shadow);
-  text-shadow: 0 0 2px var(--home-social-icons-hover-text-shadow);
+  color: #87209e;
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
 }
 
 .social-icons {
@@ -431,7 +439,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: var(--blockquote-footer-color) !important;
+  color: #a588c0 !important;
 }
 /* --------- */
 /* Projects */
@@ -547,12 +555,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid var(--tech-icons-border-color) !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px var(--tech-icons-box-shadow) !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -566,7 +574,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid var(--tech-icons-hover-border-color) !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -637,7 +645,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid var(--resume-item-border-color);
+  border-left: 2px solid #8a49a8;
   position: relative;
 }
 
@@ -674,7 +682,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid var(--resume-item-before-border-color);
+  border: 2px solid #8a49a8;
 }
 
 .like-item {
@@ -684,8 +692,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: var(--like-btn-bg-color) !important;
-  border-color: var(--like-btn-border-color) !important;
+  background-color: #934cce5e !important;
+  border-color: #934cce5e !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -694,8 +702,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: var(--like-btn-hover-bg-color) !important;
-  border-color: var(--like-btn-hover-border-color) !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
 }
 
 .animate-like {
@@ -719,7 +727,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: var(--fork-btn-inner-bg-color) !important;
+  background-color: #934cce5e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -727,8 +735,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: var(--fork-btn-inner-hover-bg-color) !important;
-  border-color: var(--fork-btn-inner-hover-border-color) !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
