@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router, // Change to HashRouter
   Route,
   Routes,
   Navigate
@@ -17,9 +17,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 function App() {
-  const basename = window.location.pathname.startsWith("/portfolio") ? "/portfolio" : "/";  // Determine the base path
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
@@ -31,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename={basename}>  {/* Set the basename for routing */}
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -41,7 +39,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
